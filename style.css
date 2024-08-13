@@ -1,0 +1,810 @@
+
+    .nav-link:hover{
+        color: white;
+      }
+      nav .container div ul {
+        position: relative;
+      }
+
+      .nav-item:hover::before{
+        position: absolute;
+        content: "";
+        background-color: white;
+        width: 17%;
+        display: block;
+        top: 2.1em;
+        height: 5px;
+      }
+
+      .carousel-item{
+        height:100vh;
+        min-height: 300px;
+      }
+
+      .carousel-caption{
+        bottom:120px;
+        z-index: 2;
+      }
+
+      .carousel-caption p{
+        letter-spacing: 3px;
+        font-size: 475%;
+        border: 1px solid white;
+        padding: 1%;
+        width: 65%;
+        text-align: left;
+      }
+
+      /*.navbar-nav a::before:hover{
+        content: '';
+        border-bottom: 3px solid salmon;
+      }*/
+      
+
+      .interactiveParent{
+        position: relative;
+      }
+
+
+
+      .txt-interactive{
+        position: absolute;
+        left: 50%;
+        top: 41%;
+        padding: 5%;
+      }
+
+      .txt-interactive p:nth-child(1){
+        font-size: 50px;
+        letter-spacing: 5px;
+      }
+
+      .interactiveSection{
+        margin-bottom: 11%;
+        margin-top: 45%;
+      }
+
+      .btnSeeAll{
+        background-color: white;
+        padding: 3%;
+        width: 95%;
+      }
+
+      .btnSeeAll:hover{
+        background-color: black;
+        border: 1px solid black;
+        color: white;
+        cursor: pointer;
+      }
+
+      .footerList{
+
+        margin-left: -11%;
+
+      }
+
+      .footerList li{
+          margin-right: 5%;
+          color: white;
+      }
+
+      .footerList li:hover{
+        cursor: pointer;
+      }
+
+      .deeptxt,.nighttxt,.soccertxt,.gridtxt,.pockettxt,.curiositytxt{
+          margin-top: -45%;
+          margin-left: 7%;
+          color: white;
+          width: 10%;
+      }
+
+      .fromabovetxt,.fisheyetxt{
+        margin-top: -45%;
+        margin-left: 7%;
+        color: white;
+        width: 95%;
+      }
+
+      .deepearth img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+
+      .deepearth img:hover~ .deeptxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      .nightarcade img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+      
+      .nightarcade img:hover~ .nighttxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      .soccerteam img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+      
+      .soccerteam img:hover~ .soccertxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      .grid img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+      
+      .grid img:hover~ .gridtxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      .fromabove img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+      
+      .fromabove img:hover~ .fromabovetxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      .pocketborealis img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+      
+      .pocketborealis img:hover~ .pockettxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      .curiosity img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+      
+      .curiosity img:hover~ .curiositytxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      .fisheye img:hover{
+        opacity: 0.1;
+        cursor: pointer;
+        transition: all ease-in 0.5s;
+      }
+      
+      .fisheye img:hover~ .fisheyetxt{
+        color:black;
+        transition: all ease-in 0.5s;
+      }
+
+      body{
+        position: relative;
+      }
+
+      .heroParents{
+        position: absolute;
+        top: 0%;
+        z-index: -1000;
+      }
+
+      .nav-link{
+        color: white;
+      }
+
+      .deepearth img:nth-child(1){
+            display: flex;
+          }
+
+      .deepearth img:nth-child(2){
+            display: none;
+
+          }
+
+          .nightarcade img:nth-child(1){
+            display: flex;
+          }
+
+      .nightarcade img:nth-child(2){
+            display: none;
+
+          }
+
+
+          .soccerteam img:nth-child(1){
+            display: flex;
+          }
+
+      .soccerteam img:nth-child(2){
+            display: none;
+
+          }
+
+          .curiosity img:nth-child(1){
+            display: flex;
+          }
+
+      .curiosity img:nth-child(2){
+            display: none;
+
+          }
+
+          .pocketborealis img:nth-child(1){
+            display: flex;
+          }
+
+      .pocketborealis img:nth-child(2){
+            display: none;
+
+          }
+
+          .grid img:nth-child(1){
+            display: flex;
+          }
+
+      .grid img:nth-child(2){
+            display: none;
+
+          }
+
+          .fromabove img:nth-child(1){
+            display: flex;
+          }
+
+      .fromabove img:nth-child(2){
+            display: none;
+
+          }
+
+
+      .fisheye img:nth-child(1){
+            display: flex;
+          }
+
+      .fisheye img:nth-child(2){
+            display: none;
+
+          }
+
+          .footer{
+            margin-top: 3%;
+          }
+
+         .heroParents div .hero .heroDesktop{
+            display: flex;
+          }
+
+          .heroParents div .hero .heroMobile{
+            display: none;
+          }
+
+          section div div .interactiveDesktop{
+            display: flex;
+          }
+
+          section div div .interactiveMobile{
+            display: none;
+          }
+
+    
+
+
+       
+
+        @media only screen and (max-width: 768px){
+         .nav-item:hover::before{
+            position: absolute;
+            content: "";
+            display: none;
+          }
+
+          nav .container button span{
+           color: white;
+          }
+
+          body {
+            overflow-x: hidden;
+          }
+
+          .navbar-nav{
+            text-align: center;
+          }
+          
+          .carousel-caption{
+            bottom: 125px;
+          }
+
+         
+
+
+          .deepearth img:nth-child(1){
+            display: none;
+          }
+
+      .deepearth img:nth-child(2){
+            display: flex;
+
+          }
+
+          .nightarcade img:nth-child(1){
+            display: none;
+          }
+
+      .nightarcade img:nth-child(2){
+            display: flex;
+
+          }
+
+
+          .soccerteam img:nth-child(1){
+            display: none;
+          }
+
+      .soccerteam img:nth-child(2){
+            display: flex;
+
+          }
+
+          .curiosity img:nth-child(1){
+            display: none;
+          }
+
+      .curiosity img:nth-child(2){
+            display: flex;
+
+          }
+
+          .pocketborealis img:nth-child(1){
+            display: none;
+          }
+
+      .pocketborealis img:nth-child(2){
+            display: flex;
+
+          }
+
+          .grid img:nth-child(1){
+            display: none;
+          }
+
+      .grid img:nth-child(2){
+            display: flex;
+
+          }
+
+          .fromabove img:nth-child(1){
+            display: none;
+          }
+
+      .fromabove img:nth-child(2){
+            display: flex;
+
+          }
+
+          .fisheye img:nth-child(1){
+            display: none;
+          }
+
+          .fisheye img:nth-child(2){
+            display: flex;
+
+
+          }
+
+          .imgMobile{
+            width: 100%;
+/*            margin-top: 5%;*/
+          }
+          
+
+          
+
+          .footer{
+            margin-top: 37%;
+            width: 100%;
+            
+          }
+
+        
+           .footer .container{
+             text-align: center;
+           }
+          
+           .footer .container ul{
+            margin-bottom: 7%;
+           }
+
+          .footer .container ul li{
+            margin-top: 3%;
+          }
+
+          .interactiveSection{
+            margin-top: 99vh;
+            margin-bottom: 10vh;
+          }
+
+         .heroParents div .hero .heroDesktop{
+            display: none;
+          }
+
+          .heroParents div .hero img:nth-child(2){
+            display: flex;
+            width: 100%; 
+          }
+
+          section div div .interactiveDesktop{
+            display: none;
+          }
+
+          section div div .interactiveMobile{
+            display: flex;
+          }
+
+          .txt-interactive{
+            position: absolute;
+            left: 0%;
+            top: 95%;
+            padding: 5%;
+            width: 100%;
+            right: 0%;
+          }
+
+          .txt-interactive p:nth-child(1){
+            font-size: 250%;
+            letter-spacing: 3px;
+            text-align: center;
+          }
+
+          .txt-interactive p:nth-child(2){
+            text-align: center;
+            font-size: 150%;
+
+          }
+
+          .interactiveSection .interactiveParent div .interactiveMobile{
+            width: 100%;
+          }
+          
+          .galleries1{
+            margin-top: 75vh;
+          }
+
+           .parents{
+            position: relative;
+           } 
+
+      .deeptxt,.nighttxt,.soccertxt,.gridtxt,.pockettxt,.curiositytxt{
+            position: absolute;
+/*          margin-top: -20%;*/
+          top: 169%;
+          margin-left: 7%;
+          color: white;
+          width: 10%;
+      }
+
+      .fromabovetxt,.fisheyetxt{
+        position: absolute;
+        top: 169%;
+        margin-left: 7%;
+        color: white;
+        width: 31%;
+      }
+
+      
+
+      .creations .container div div:nth-child(1) h1{
+        position: relative;
+
+        top:70vh;
+        text-align: center;
+        
+        z-index: 2000;
+      }
+
+      .creations .container div div:nth-child(2) {
+       position: relative;
+       
+      }
+
+      .creations .container div div:nth-child(2) .btnSeeAll{
+         position: absolute;
+         top:345vh;
+         z-index: 1000; 
+         width: 95%;
+      }
+
+      .carousel-caption{
+        bottom:15%;
+        left: 5%;
+        z-index: 2;
+      }
+
+      .carousel-caption p{
+        letter-spacing: 3px;
+        font-size: 275%;
+        border: 1px solid white;
+        padding: 3%;
+        width: 100%;
+        text-align: left;
+      }
+
+  
+
+      .footerList li{
+          margin-right: 5%;
+          color: white;
+      }
+
+      .footerList li:hover{
+        cursor: pointer;
+      }
+
+      .logoRight{
+        margin-bottom: 7%;
+      }
+
+    }
+      
+
+/*   =============   */
+
+      @media only screen and (max-width: 375px){
+          body {
+            overflow-x: hidden;
+          }
+
+          .navbar-nav{
+            text-align: center;
+          }
+          
+          .carousel-caption{
+            bottom: 125px;
+          }
+
+         
+
+
+          .deepearth img:nth-child(1){
+            display: none;
+          }
+
+      .deepearth img:nth-child(2){
+            display: flex;
+
+          }
+
+          .nightarcade img:nth-child(1){
+            display: none;
+          }
+
+      .nightarcade img:nth-child(2){
+            display: flex;
+
+          }
+
+
+          .soccerteam img:nth-child(1){
+            display: none;
+          }
+
+      .soccerteam img:nth-child(2){
+            display: flex;
+
+          }
+
+          .curiosity img:nth-child(1){
+            display: none;
+          }
+
+      .curiosity img:nth-child(2){
+            display: flex;
+
+          }
+
+          .pocketborealis img:nth-child(1){
+            display: none;
+          }
+
+      .pocketborealis img:nth-child(2){
+            display: flex;
+
+          }
+
+          .grid img:nth-child(1){
+            display: none;
+          }
+
+      .grid img:nth-child(2){
+            display: flex;
+
+          }
+
+          .fromabove img:nth-child(1){
+            display: none;
+          }
+
+      .fromabove img:nth-child(2){
+            display: flex;
+
+          }
+
+          .fisheye img:nth-child(1){
+            display: none;
+          }
+
+          .fisheye img:nth-child(2){
+            display: flex;
+
+
+          }
+
+          .imgMobile{
+            width: 100%;
+/*            margin-top: 5%;*/
+          }
+          
+
+          
+
+          .footer{
+            margin-top: 37%;
+            width: 100%;
+            
+          }
+
+        
+           .footer .container{
+             text-align: center;
+           }
+          
+           .footer .container ul{
+            margin-bottom: 7%;
+           }
+
+          .footer .container ul li{
+            margin-top: 3%;
+          }
+
+          .interactiveSection{
+            margin-top: 90vh;
+            margin-bottom: 10vh;
+          }
+
+         .heroParents div .hero .heroDesktop{
+            display: none;
+          }
+
+          .heroParents div .hero img:nth-child(2){
+            display: flex;
+            width: 100%; 
+          }
+
+          section div div .interactiveDesktop{
+            display: none;
+          }
+
+          section div div .interactiveMobile{
+            display: flex;
+          }
+
+          .txt-interactive{
+            position: absolute;
+            left: 0%;
+            top: 95%;
+            padding: 5%;
+            width: 100%;
+            right: 0%;
+          }
+
+          .txt-interactive p:nth-child(1){
+            font-size: 150%;
+            letter-spacing: 3px;
+            text-align: center;
+          }
+
+          .txt-interactive p:nth-child(2){
+            text-align: center;
+            font-size: 100%;
+
+          }
+
+          .interactiveSection .interactiveParent div .interactiveMobile{
+            width: 100%;
+          }
+          
+          .galleries1{
+            margin-top: 75vh;
+          }
+
+           .parents{
+            position: relative;
+           } 
+
+      .deeptxt,.nighttxt,.soccertxt,.gridtxt,.pockettxt,.curiositytxt{
+            position: absolute;
+/*          margin-top: -20%;*/
+          top: 169%;
+          margin-left: 7%;
+          color: white;
+          width: 10%;
+      }
+
+      .fromabovetxt,.fisheyetxt{
+        position: absolute;
+        top: 169%;
+        margin-left: 7%;
+        color: white;
+        width: 40%;
+      }
+
+      
+
+      .creations .container div div:nth-child(1) h1{
+        position: relative;
+
+        top:70vh;
+        text-align: center;
+        
+        z-index: 2000;
+      }
+
+      .creations .container div div:nth-child(2) {
+       position: relative;
+       
+      }
+
+      .creations .container div div:nth-child(2) .btnSeeAll{
+         position: absolute;
+         top:479vh;
+         z-index: 1000; 
+         width: 95%;
+      }
+
+      .carousel-caption{
+        bottom:15%;
+        left: 5%;
+        z-index: 2;
+      }
+
+      .carousel-caption p{
+        letter-spacing: 3px;
+        font-size: 150%;
+        border: 1px solid white;
+        padding: 3%;
+        width: 100%;
+        text-align: left;
+      }
+
+  
+
+      .footerList li{
+          margin-right: 5%;
+          color: white;
+      }
+
+      .footerList li:hover{
+        cursor: pointer;
+      }
+
+      .logoRight{
+        margin-bottom: 7%;
+      }
+
+    }
+      
